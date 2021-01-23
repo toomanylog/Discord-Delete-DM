@@ -2,7 +2,7 @@
 ## Allows you to delete all your private discord messages.
 #### The discord api is a bit limited, some messages are not recognized but it is enough to launch it several times or often.
 
-##LANGUAGE
+## LANGUAGE
 ![](https://www.drapeauxdespays.fr/data/flags/emoji/google/160x160/fr.png)
 
 ## REQUIREMENTS
