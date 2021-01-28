@@ -34,6 +34,7 @@ def deleteallmessages():
                     time1 = r3.json()["retry_after"]
                     print(f"Rate limite atteinte, prochaine suppression dans {time1}s")
                     time.sleep(int(r3.json()["retry_after"])+0.5)
+                    rratelimit = requests.delete(f"https://discordapp.com/api/v8/channels/{dm_id}/messages/{message_id}", headers=headers)
                 else:
                     print("Erreur discord, prochain essai dans 1 seconde")
                     time.sleep(1)
